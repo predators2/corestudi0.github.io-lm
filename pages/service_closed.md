@@ -1,7 +1,3 @@
----
-permalink: /service.html
----
-
 # 服务 Service
 
 ## Step 1 .选择您的套餐
