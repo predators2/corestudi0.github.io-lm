@@ -1,30 +1,42 @@
-# 服务 Service
-
-## Step 1 .选择您的套餐
-
-| 套餐名称 | 服务范围| 次数 | 售后服务 | 福利 | 有效时间 | 注意 | 价格 |
-| -------- | ----- | ------ |------- | ---- | -------- | ------------ | ----- |
-| 1.技术支持 | 信息技术方面服务 | 1次 | X | X | 购买后2天内 | 未使用将会作废! | ¥5.0~¥20.0/次 |
-| 2.音频分离 | 音频分离 | 1次 | X | X | 购买后2天内 | 分离的内容:人声,鼓,贝斯,其他或人声,伴奏 | 前者音频每分钟收取¥5,后者每分钟收取¥3(不足1分钟按1分钟计算) |
-| 3.定制优化系统* | 微软正版优化系统安装 | 1次 | 正版永久数字激活+7天半价技术支持 | N/A |购买后直至使用 | N/A | ￥50.0(如需Office2019未激活版+￥6) |
-| 4.Google账号 | 协助注册谷歌账号 | 1次 | 账号登录指导 | N/A | 1天 | 您需要提前准备一个大陆内未注册Google账号的手机号 | ¥5.0 |
-
-* 定制优化系统专属页面实例:[核心工作室定制HiteVison教育用PC](/service/hvpc)
-
-*注意*：订单价格根据实际情况变化（在定价范围内），使用我们的折扣码（送出的）最高可以抵扣50%，特权用户（指定，如关系好的朋友，熟人）抵扣40%~75%
-
-## Step 2 .添加管理员购买套餐
-
-管理员EMail:a1447754529@163.com
-
-服务时间:每周末下午1:00-6:00或节假日在线期间
-
-## Step 3 .根据指示即可开始享受服务
-
-**[我的频道](https://www.youtube.com/channel/UCXKZtp7WHK2rfcrVfsvSTuw)**
-
-注:购买套餐后会获得唯一的SKEY,请妥善保管,服务只认SKEY不认人,若SKEY泄露将有可能受盗用者使用或退款!
-
-SKEY组成(例): 22(年份)05(月份)05(购买的套餐序号)0519(生效日期)001(当月第N次购买的编号)EBNNWQ(5位校验码,随机生成) --- 2205050519001EBNNWQ 即2022年5月购买的5号套餐，生效日期5月19日，当月第1个购买的套餐
-
-[<<返回首页](https://corestudi0.github.io)
+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
+faFvjHnXBaU=
