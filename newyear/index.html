@@ -83,87 +83,138 @@ var _hmt = _hmt || [];
     <!-- 引用NianBroken的FireworkSimulator，仅为引用，非恶意搬运，侵删 -->
     <div class="container">
         <div class="loading-init">
-            <div class="loading-init__header"></div>
-            <div class="loading-init__status"></div>
+            <div class="loading-init__header">
+                加载中(Loading)
+            </div>
+            <div class="loading-init__status">
+                正在准备烟花(Downloading files from github)
+            </div>
         </div>
+
         <div class="stage-container remove">
-            <div class="page_two hide">
-                <div id="text" style="display:none;">岁未将至 平安喜乐 2023万事如意🧨
+        <div class="page_two hide">
+            <div id="text" style="display:none;">岁未将至 平安喜乐 2023万事如意🧨
 <br>唯愿烟花像星辰   祝你所愿皆成真🧨
 <br><br>你是第<span id="busuanzi_value_page_pv"></span>个观赏到烟花的人</div><!--此处已进行修改，优化了倒计时-->
-                <div class="type_words" id="contents" style="font-size:1.05rem;line-height:1.5rem;"></div>
-            </div>
-            <div class="canvas-container">
-                <canvas id="trails-canvas"></canvas>
-                <canvas id="main-canvas"></canvas>
-            </div>
-
+            <div class="type_words" id="contents" style="font-size:1.08rem;line-height:1.5rem;"></div>
+        </div>
+        <div class="canvas-container">
+            <canvas id="trails-canvas"></canvas>
+            <canvas id="main-canvas"></canvas>
+        </div>
+            
             <div class="menu hide">
                 <div class="menu__inner-wrap">
-
-                    <div class="menu__header">设置</div>
-
+                    <div class="btn btn--bright close-menu-btn">
+                        <svg fill="white" width="24" height="24">
+                            <use href="#icon-close" xlink:href="#icon-close">
+                            </use>
+                        </svg>
+                    </div>
+                    <div class="menu__header">
+                        设置
+                    </div>
+                    <div class="menu__subheader">
+                        若想了解更多信息 请点击任意标签
+                    </div>
                     <form>
                         <div class="form-option form-option--select">
-                            <label class="shell-type-label">烟花类型</label>
-                            <select class="shell-type"></select>
+                            <label class="shell-type-label">
+                            烟花类型
+                            </label>
+                            <select class="shell-type">
+                            </select>
                         </div>
                         <div class="form-option form-option--select">
-                            <label class="shell-size-label">烟花大小</label>
-                            <select class="shell-size"></select>
+                            <label class="shell-size-label">
+                            烟花大小
+                            </label>
+                            <select class="shell-size">
+                            </select>
                         </div>
                         <div class="form-option form-option--select">
-                            <label class="quality-ui-label">画质</label>
-                            <select class="quality-ui"></select>
+                            <label class="quality-ui-label">
+                            画质
+                            </label>
+                            <select class="quality-ui">
+                            </select>
                         </div>
                         <div class="form-option form-option--select">
-                            <label class="sky-lighting-label">天空照明</label>
-                            <select class="sky-lighting"></select>
+                            <label class="sky-lighting-label">
+                            照亮天空
+                            </label>
+                            <select class="sky-lighting">
+                            </select>
                         </div>
                         <div class="form-option form-option--select">
-                            <label class="scaleFactor-label">规模</label>
-                            <select class="scaleFactor"></select>
+                            <label class="scaleFactor-label">
+                            缩放
+                            </label>
+                            <select class="scaleFactor">
+                            </select>
                         </div>
                         <div class="form-option form-option--checkbox">
-                            <label class="auto-launch-label">自动发射</label>
-                            <input class="auto-launch" type="checkbox">
+                            <label class="auto-launch-label">
+                            自动放烟花
+                            </label>
+                            <input class="auto-launch" type="checkbox" />
                         </div>
                         <div class="form-option form-option--checkbox form-option--finale-mode">
-                            <label class="finale-mode-label">结局模式</label>
-                            <input class="finale-mode" type="checkbox">
+                            <label class="finale-mode-label">
+                            同时放更多的烟花
+                            </label>
+                            <input class="finale-mode" type="checkbox" />
                         </div>
                         <div class="form-option form-option--checkbox">
-                            <label class="hide-controls-label">隐藏控制器</label>
-                            <input class="hide-controls" type="checkbox">
+                            <label class="hide-controls-label">
+                            隐藏控制按钮
+                            </label>
+                            <input class="hide-controls" type="checkbox" />
                         </div>
                         <div class="form-option form-option--checkbox form-option--fullscreen">
-                            <label class="fullscreen-label">全屏</label>
-                            <input class="fullscreen" type="checkbox">
+                            <label class="fullscreen-label">
+                            全屏
+                            </label>
+                            <input class="fullscreen" type="checkbox" />
                         </div>
                         <div class="form-option form-option--checkbox">
-                            <label class="long-exposure-label">打开快门</label>
-                            <input class="long-exposure" type="checkbox">
+                            <label class="long-exposure-label">
+                            保留烟花的火花
+                            </label>
+                            <input class="long-exposure" type="checkbox" />
                         </div>
                     </form>
+                    <div class="credits">
+                        <p class="copyright">
+                            <script>
+                                var mydate = new Date();
+                                document.writeln("Copyright&nbsp;&copy;&nbsp;2021 - " + mydate.getFullYear() + '&nbsp;<a target="_blank" href="https://www.nianbroken.top/">碎念_Nian</a><br />All&nbsp;Rights&nbsp;Reserved');
+                            </script>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="help-modal">
-            <div class="help-modal__overlay"></div>
+            <div class="help-modal__overlay">
+            </div>
             <div class="help-modal__dialog">
-                <div class="help-modal__header"></div>
-                <div class="help-modal__body"></div>
-                <button type="button" class="help-modal__close-btn">关闭</button>
+                <div class="help-modal__header">
+                </div>
+                <div class="help-modal__body">
+                </div>
+                <button type="button" class="help-modal__close-btn">
+                关闭
+                </button>
             </div>
         </div>
     </div>
-
-
     <!-- partial -->
-    <script src="files/js/fscreen%401.0.1.js"></script><!--!‬‏‬‫‭‫‫‬‫‭‫‬‬‏‭‭‪‏‬‎‫‬‎‎-->
-    <script src="files/js/Stage%400.1.4.js"></script><!--!‬‏‬‫‭‫‫‬‫‭‫‬‬‏‭‭‪‏‬‎‫‬‎‎-->
-    <script src="files/js/MyMath.js"></script><!--!‬‏‬‫‭‫‫‬‫‭‫‬‬‏‭‭‪‏‬‎‫‬‎‎-->
-    <script src="files/js/script.js"></script><!--!‬‏‬‫‭‫‫‬‫‭‫‬‬‏‭‭‪‏‬‎‫‬‎‎-->
+    <script src='files/js/fscreen.js'></script>
+    <script src='files/js/Stage.js'></script>
+    <script src='files/js/MyMath.js'></script>
+    <script src="files/js/script.js"></script>
+
 
     <script>
         function musicPlay(isPlay) {
@@ -187,22 +238,22 @@ var _hmt = _hmt || [];
             setTimeout(() => {
                 start()
                 fireworks();
-            }, 1600) // 
+            }, 2000) // 
             setTimeout(() => {
                 function audioAutoPlay() {
                     var audio = document.getElementById('audioDom');
                     audio.play();
                 }
                 audioAutoPlay();
-            }, 800) // 
+            }, 300) // 
             console.log(updateConfig({
                 autoLaunch: true
             }));
         })
 
         function fireworks() {
-            $('.page_one').addClass('hide');
-            $('.page_two').removeClass('hide');
+            $('.page_one').addClass(' hide');
+            $('.page_two').removeClass(' hide');
         }
 
         function start() {
